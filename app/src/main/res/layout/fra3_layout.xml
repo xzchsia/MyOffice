@@ -43,9 +43,14 @@
             android:visibility="invisible" />
 
         <com.tianyapeng.view.SideBar
+            android:id="@+id/sidebar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
 
 
             />
+
 
     </RelativeLayout>
 </LinearLayout>

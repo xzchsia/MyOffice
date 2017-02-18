@@ -78,34 +78,34 @@ public class SideBar extends View {
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
 
-        final float y=event.getY(); //点击y坐标
-        final int oldChoose=choose;
-        final OnTouchingLetterChangeListener listener=onTouchingLetterChangeListener;
+        final float y = event.getY(); //点击y坐标
+        final int oldChoose = choose;
+        final OnTouchingLetterChangeListener listener = onTouchingLetterChangeListener;
         //点击y坐标所占用总高度比例*b数组的长度就等于点击b中的个数
-        final int c= (int) (y/getHeight()*b.length);
+        final int c = (int) (y / getHeight() * b.length);
 
-        switch (event.getAction()){
+        switch (event.getAction()) {
             //抬起
             case MotionEvent.ACTION_UP:
                 setBackgroundDrawable(new ColorDrawable(0x00000000));
-                choose=-1;
+                choose = -1;
                 invalidate();
-                if (Dialog_text!=null) {
-                Dialog_text.setVisibility(View.INVISIBLE);
+                if (Dialog_text != null) {
+                    Dialog_text.setVisibility(View.INVISIBLE);
                 }
                 break;
 
             default:
                 setBackgroundResource(R.drawable.sidebar_bg);
-                if(oldChoose!=c){
-                    if(c>=0&&c<b.length){
+                if (oldChoose != c) {
+                    if (c >= 0 && c < b.length) {
                         listener.onTouchingLetterChange(b[c]);
                     }
-                    if(Dialog_text!=null){
+                    if (Dialog_text != null) {
                         Dialog_text.setText(b[c]);
                         Dialog_text.setVisibility(View.VISIBLE);
                     }
-                    choose=c;
+                    choose = c;
                     invalidate();
                 }
 

@@ -1,6 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <com.tianyapeng.view.XCRoundImageView
+                    android:id="@+id/image_staff"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/staff_picture" />
+
+                <TextView
+                    android:id="@+id/tv_fr4_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="dasfgasf"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:id="@+id/xingbie_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="性别"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fr4_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:text="男"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:id="@+id/shengr_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="员工编号"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fr4_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:text="20170112"
+                        android:textColor="#969696"
+                        android:textSize="15sp"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="部门"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_fr4_department"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:text="技术部"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="职位"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_fr4_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:text="Android工程师"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="手机"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_fr4_mobilephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center_vertical"
+                        android:text="15034070828"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#F0F0F0" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center_vertical"
+                        android:text="邮箱"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_fr4_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:text="983186201@qq.com"
+                        android:textColor="#969696"
+                        android:textSize="15sp"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#F0F0F0" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </LinearLayout>

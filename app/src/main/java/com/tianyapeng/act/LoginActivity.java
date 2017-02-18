@@ -28,7 +28,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.tianyapeng.entity.UserInfo;
-import com.tianyapeng.util.MyApplication;
 import com.tianyapeng.util.SharedPreferencesHelp;
 
 import java.lang.reflect.Type;
