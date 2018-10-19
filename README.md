@@ -5,15 +5,15 @@
 
 ## screenshots
 
-![1](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156428.png)
+![1](/screenshot/Screenshot_1539156428.png)
 
-![2](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156431.png)
+![2](/screenshot/Screenshot_1539156431.png)
 
-![3](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156352.png)
+![3](/screenshot/Screenshot_1539156352.png)
 
-![4](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156355.png)
+![4](/screenshot/Screenshot_1539156355.png)
 
-![5](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156358.png)
+![5](/screenshot/Screenshot_1539156358.png)
 
-![6](https://raw.githubusercontent.com/xzchsia/MyOffice/master/screenshot/Screenshot_1539156360.png)
+![6](/screenshot/Screenshot_1539156360.png)
 
